@@ -1,6 +1,12 @@
-# My deadly simple CMS for lasiestaamericana.com
+# lasiestaamericana.com — retired source archive
 
-## Pre-requisites
+The hosted website was retired on 4 October 2026. Its AWS website infrastructure and web DNS records have been removed; no retirement notice or replacement site is hosted. Domain registration and this source repository are retained.
+
+SiestaCMS (siestacms.com) is a separate application and remains online with its existing configuration.
+
+The instructions below are retained as historical development documentation. Do not run deployment commands against the retired service without explicitly planning a new deployment. There are no GitHub Actions deployment workflows in this repository as of retirement. Recovery material is held privately by the owner.
+
+## Historical development prerequisites
 
 - Docker
 - Docker Compose
@@ -26,7 +32,7 @@ Build:
 
     $ make build
 
-Deploy to AWS (dev stage):
+Historical AWS deployment command (would recreate infrastructure; do not use for routine development):
 
     $ make deploy-dev
 
